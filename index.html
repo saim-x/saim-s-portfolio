@@ -94,7 +94,7 @@
         </div>
       </div>
     </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    <!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" /> -->
   </section>
   <section id="experience">
     <p class="section__text__p1">Explore My</p>
@@ -183,7 +183,7 @@
         </div>
       </div>
     </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    <!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" /> -->
   </section>
   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
@@ -301,7 +301,7 @@
             <button class="btn btn-color-2 project-btn"
               onclick="location.href='https://github.com/saim-x/NEXTJSCRUDAPP'">Github</button>
             <button class="btn btn-color-2 project-btn"
-              onclick="location.href='https://github.com/saim-x/SlangDictionaryWebApp'">Live Demo</button>
+              onclick="location.href='https://github.com/saim-x/NEXTJSCRUDAPP'">Live Demo</button>
           </div>
         </div>
 
@@ -323,7 +323,7 @@
       </div>
     </div>
     </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    <!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="window.scrollTo(0, document.body.scrollHeight);" /> -->
   </section>
 
 
@@ -331,14 +331,30 @@
     <p class="section__text__p1">Get in Touch</p>
     <h1 class="title">Contact Me</h1>
     <div class="contact-info-upper-container">
-      <div class="contact-info-container">
+      <!-- <div class="contact-info-container">
         <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
         <p><a href="mailto:connectsaimm@gmail.com" target="_blank">connectsaimm@gmail.com</a></p>
       </div>
       <div class="contact-info-container">
         <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
         <p><a href="https://www.linkedin.com/in/contactsaim" target="_blank">LinkedIn</a></p>
-      </div>
+      </div> -->
+      <form action="https://api.web3forms.com/submit" method="POST" class="content-left">
+        <div class="content-left-title">
+            <h2>Hi there!</h2>
+            <hr>
+        </div>
+        <input type="hidden" name="access_key" value="3abee05d-5550-4330-91e4-124585e7fb59">
+        <!-- I know my mistake :D-->
+        <input type="text" name="name" placeholder="Your Name"
+            class="contact-inputs" required>
+        <input type="email" name="email" placeholder="Your Email"
+            class="contact-inputs" required>
+        <textarea name="message" placeholder="Your Message"
+            class="contact-inputs" required></textarea>
+        <button type="submit" class="btn btn-color-2 project-btn">Submit <img src="media/arrow_icon.png"
+                alt></button>
+    </form>
     </div>
   </section>
   <footer>
